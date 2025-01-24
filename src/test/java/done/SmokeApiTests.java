@@ -27,7 +27,7 @@ public class SmokeApiTests {
                   "userStatus": 0
                 }""";
 
-        
+
         ValidatableResponse response = given()
                 .header("accept","application/json")
                 .header("Content-Type","application/json")
